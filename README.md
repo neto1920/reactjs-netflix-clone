@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### ---------------------------------------------------------------------
+
+### Api's
+
+this project does with TMDB : [https://www.themoviedb.org/documentation/api]
+
+### JSON Format
+
+was used online JSON Viewer for  Format Api's: [http://jsonviewer.stack.hu]
+
+### Rest Test
+
+Test the rest: [https://resttesttest.com]
