@@ -5,7 +5,7 @@
 .featured--vertical {
     width: inherit;
     height: inherit;
-    background: linear-gradient(to top, #111 10%, transparent 90%);
+    background: linear-gradient(to top, #111 5%, transparent 60%);
 }
 
 .featured--horizontal {
@@ -82,4 +82,38 @@
     margin-top: 15px;
     font-size: 18px;
     color: #999;
+}
+
+@media (max-width: 760px) {
+    .featured {
+        height: 90vh;
+    }
+
+    .featured--name{
+        font-size: 40px;
+    }   
+
+    .featured--info {
+        font-size: 16px;
+    }
+
+    .featured--description {
+        font-size: 14px;
+        max-width:100%;
+        margin-right: 30px;
+    }
+
+    .featured--watchButton,
+    .featured--myListButton {
+        font-size: 16px;
+    }
+
+    .featured--genres {
+        font-size: 14px;
+    }
+
+    .featured--vertical {
+        background: linear-gradient(to top, #111 1%, transparent 99%)
+    }
+    
 }

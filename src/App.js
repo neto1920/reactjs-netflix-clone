@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './components/styles/Global-styles.css';
-
 import Tmdb from './utils/Tmdb';
 import MovieRow from '../src/components/movieRow';
 import FeaturedMovie from './components/FeaturedMovie';
@@ -63,6 +62,18 @@ export default () => {
           />
         ))}
       </section>
+
+      <footer>
+        &copy; Desenvolvido por NetoInnovation |
+        Direitos de imagem para NetFlix<br/>
+        Dados de api consumido pelo site Themoviedb.org
+      </footer>
+      
+      {movieList.length <= 0  && 
+        <div className="loading">
+          <img src="https://media.wired.com/photos/592744d3f3e2356fd800bf00/master/w_2000,c_limit/Netflix_LoadTime.gif" alt="loading" />
+        </div>
+      }
     </div>
   )
   
